@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+#title {
+	position:absolute;
+	left:20px;
+	top:20px;
+}
+
+#score {
+	position:absolute;
+	left:33%;
+	top:20px;
+	color: black;
+}
+
+#timer {
+	position:absolute;
+	left:50%;
+	top:20px;
+	color: black;
+}
+
+#startButton
+{
+	position:absolute;
+	left:75%;
+	top:20px;
+	color: darkred;
+}
+
+#prompt {
+	position:absolute;
+	bottom:20px;
+	left:20px;
+}
+
+#animations {
+	color:MidnightBlue;
+	position:absolute;
+	left:810px;
+	top:20px;
+	font-size:20px;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.colorSelector {
+	position: absolute;
+	font-size:16px;
+    margin-left:10px;
+}
+
+.colorSelector div {
+	position: absolute;
+	top: 4px;
+	left: 140px;
+	width: 28px;
+	height: 28px;
+	background: url(../libs/colorpicker/images/select2.png) center;
+}
+
+#directional {
+	position: absolute;
+	top:80px;
+}
+
+#spot {
+	position: absolute;
+	top:120px;
+}
+
+#ambient {
+	position: absolute;
+	top:160px;
+}

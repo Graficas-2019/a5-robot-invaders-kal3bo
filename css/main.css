@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+html, body, canvas{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  border: 0;
+  overflow: hidden;
+  display: block;
+}
+
+* {
+    font-family: Arial;
+    font-size:20px;
+    font-style: italic;
+}
+
+body {
+	color:rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+}
+
+#container, #webglcanvas {
+  height: 100%;
+  width: 100%;
+	border:none;
+	background-color:#ffffff;
+}
