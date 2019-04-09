@@ -107,7 +107,7 @@ function loadObj(x, z){
         tgaLoader = new THREE.TGALoader()
     
     objLoader.load(
-        '../models/scifipanel_obj.obj',
+        'models/scifipanel_obj.obj',
         function(object){
             object.traverse( function ( child ){
                 if (child instanceof THREE.Mesh){
@@ -167,7 +167,7 @@ function getSpot(){
 // Loading the robots:
 function loadFBX(){
     var loader = new THREE.FBXLoader()
-    loader.load( '../models/Robot/robot_run.fbx', function ( object ){
+    loader.load( 'models/Robot/robot_run.fbx', function ( object ){
         object.scale.set(0.02, 0.02, 0.02)
         object.position.y -= 4
         object.traverse( function ( child ) {
@@ -180,7 +180,7 @@ function loadFBX(){
         robot_idle = object
         anomations.idle = object.animations[0]
         // If the robot dies:
-        loader.load( '../models/Robot/robot_atk.fbx', function ( object ){anomations.dead = object.animations[0]})
+        loader.load( 'models/Robot/robot_atk.fbx', function ( object ){anomations.dead = object.animations[0]})
     })
 }
 
